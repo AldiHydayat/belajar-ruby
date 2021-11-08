@@ -14,3 +14,9 @@ puts popular_framework["PHP"]
 
 jokowi = { name: "Joko Widodo", age: 59, profession: "President" }
 puts jokowi[:profession]
+
+gems = { "Authentication" => "Devise", "File uploading" => "Carrierwave", "Static code analyzer" => "Rubocop" }
+
+gems.each_value do |val|
+  puts "Saya biasa menggunakan gem #{val} di project Ruby on Rails"
+end

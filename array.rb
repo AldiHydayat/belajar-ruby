@@ -37,3 +37,12 @@ end
 music = ["Youtube", "Spotify", "Deezer"]
 music = []
 puts music.join(" ")
+
+# Delete Array
+my_array.push(7)
+my_array.delete(7)
+puts my_array.inspect
+my_array.delete_at(0)
+puts my_array.inspect
+my_array.delete_if { |val| val >= 5 }
+puts my_array.inspect

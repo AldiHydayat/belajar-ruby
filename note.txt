@@ -14,3 +14,10 @@
 - shift array akan menghapus element terdepan
 - unshift array akan menambahkan element baru di akhir index
 - Proc dan Lamba berfungsi untuk menyimpan method ke dalam variable
+- array.delete akan menghapus semua element yang cocok
+- array.delete_at akan menghapus element ke-n
+- array.delete_if akan menghapus element yang cocok dengan kondisi yang ditentukan
+- hash.each_key melakukan perulangan dan mengambil key-nya saja
+- hash.each_value melakukan perulangan dan mengambil value-nya saja
+- hash.keys mengambil semua key hash ke dalam array
+- hash.values mengambil semua value hash ke dalam array
