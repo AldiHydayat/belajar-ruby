@@ -1,0 +1,16 @@
+- menangkap inputan dari user menggunakan method gets, dan ditangkap dalam bentuk string
+- interpolasi akan dijalankan jika menggunakan (")
+- jika sebuah method diakhiri dengan tanda seru (!), maka method terebut akan mengubah nilai asli variable
+- perbedaan sub dan gsub, sub mengubah karakter yang pertama di temukan, gsub mengubah semua karakter yang cocok
+- strip digunakan untuk menghapus spasi kosong
+- split membagi string menjadi array, default pemisahnya adalah spasi ( )
+- tanda dua bintang (**) artinya pangkat
+- upto digunakan untuk hitung maju, sedangkan downto digunakan hitung mundur
+- jika method tidak terdapat return maka akan me-return instruksi terakhir
+- array join untuk menyatukan semua element array menjadi string
+- jika method memiliki lebih dari 1 parameter dan pada saat memanggil method mempassing 1 parameter maka akan mengisi parameter yang belum memiliki nilai
+- push array akan menambahkan element baru di akhir index
+- pop array akan menghapus element terakhir
+- shift array akan menghapus element terdepan
+- unshift array akan menambahkan element baru di akhir index
+- Proc dan Lamba berfungsi untuk menyimpan method ke dalam variable
