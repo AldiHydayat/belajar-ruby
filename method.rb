@@ -78,3 +78,20 @@ def biodata(nama:, usia:)
 end
 
 biodata(nama: "Asep Aldi", usia: 18)
+
+def splat(*params)
+  params.each do |val|
+    puts val
+  end
+end
+
+# splat(1, 2, 3, 5, 12, 23, 56)
+
+def desplat(param1, param2)
+  puts param1
+  puts param2
+end
+
+array = ["asep", "aldi"]
+
+desplat(*array) # or => *["asep", "aldi"]

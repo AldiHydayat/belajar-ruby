@@ -21,3 +21,7 @@
 - hash.each_value melakukan perulangan dan mengambil value-nya saja
 - hash.keys mengambil semua key hash ke dalam array
 - hash.values mengambil semua value hash ke dalam array
+- read file ada 2 cara yaitu dengan File.open (dengan mode 'r') dan File.read
+- splat di gunakan untuk memecah array menjadi parameter atau juga menampung parameter ke array (...parameter jika di javascript)
+- array.map sama seperti each tetapi dapat mengubah value array
+- array.select untuk menseleksi element array yang sesuai dengan kondisi (array.filter jika pada javascript)

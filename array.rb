@@ -46,3 +46,22 @@ my_array.delete_at(0)
 puts my_array.inspect
 my_array.delete_if { |val| val >= 5 }
 puts my_array.inspect
+
+my_array = [1, 2, 3, 4, 5, 6]
+array = my_array.map do |val|
+  "#{val} + 10 = #{val + 10}"
+end
+
+puts array.inspect
+
+array = ["Node", "React", "Rails", "Laravel"]
+array.each { |val| puts val }
+
+students = [
+  { name: "Akmal", score: 90 },
+  { name: "Aji", score: 85 },
+  { name: "Antoni", score: 75 },
+]
+
+above_average_students = students.select { |student| student[:score] > 80 }
+puts above_average_students

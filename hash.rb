@@ -20,3 +20,6 @@ gems = { "Authentication" => "Devise", "File uploading" => "Carrierwave", "Stati
 gems.each_value do |val|
   puts "Saya biasa menggunakan gem #{val} di project Ruby on Rails"
 end
+
+hash = { javascript: "NodeJs", php: "Laravel", ruby: "Rails", java: "Spring" }
+hash.each_value { |val| puts val }
