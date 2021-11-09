@@ -25,3 +25,6 @@
 - splat di gunakan untuk memecah array menjadi parameter atau juga menampung parameter ke array (...parameter jika di javascript)
 - array.map sama seperti each tetapi dapat mengubah value array
 - array.select untuk menseleksi element array yang sesuai dengan kondisi (array.filter jika pada javascript)
+- method self.class pada Module akan merefer pada Class yang di include atau pada modulenya sendiri
+- jika include module pada class maka method di dalam module akan menjadi instance method
+- jika extend module pada class maka method di dalam module akan menjadi class method
