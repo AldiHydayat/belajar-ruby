@@ -1,3 +1,5 @@
+======= Ruby =======
+
 - menangkap inputan dari user menggunakan method gets, dan ditangkap dalam bentuk string
 - interpolasi akan dijalankan jika menggunakan (")
 - jika sebuah method diakhiri dengan tanda seru (!), maka method terebut akan mengubah nilai asli variable
@@ -28,3 +30,23 @@
 - method self.class pada Module akan merefer pada Class yang di include atau pada modulenya sendiri
 - jika include module pada class maka method di dalam module akan menjadi instance method
 - jika extend module pada class maka method di dalam module akan menjadi class method
+
+
+======= Rails =======
+
+- Controller digunakan untuk menerima request dari user
+- Model digunakan untuk berinteraksi dengan database dan menyimpan logic sistem
+- View digunakan menyimpan tampilan yang akan di tampilkan di halaman aplikasi
+- object.new_record? digunakan untuk mengecek apakah object merupakan record baru yang belum di insert ke database, akan mengembalikan true jika belum di insert ke database
+- object.persisted? digunakan untuk mengecek apakah object merupakan record dari database yang sudah di insert ke database, akan mengembalikan true jika sudah di insert ke database
+- penamaan Model menggunakan singular dan setiap kata diawali huruf kapital
+- Model.find_by akan mengambil 1 record pertama yang cocok dengan parameter
+- Model.where akan mengambil semua record pertama yang cocok dengan parameter
+- jika ingin mendisable layout default rails pada controller paka gunakan method (layout :false)
+- jika ingin mendisable layout default rails pada action controller paka gunakan method (render layout: false)
+- jika ingin menggunakan custom layout gunakan method (layout "nama_layout")
+- keyword belongs_to terdapat pada model/tabel foreign_key
+- method save record tanpa tanda bang(!) (save, create, update) akan mengembalikan false jika gagal
+- method save record dengan bang(!) (save!, create!, update!) akan mengembalikan exception jika gagal
+- object.valid? akan mengembalikan nilai true jika lolos validasi 
+- object.invalid? akan mengembalikan nilai true jika tidak lolos validasi
